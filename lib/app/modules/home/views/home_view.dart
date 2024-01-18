@@ -20,7 +20,7 @@ class HomeView extends GetView<HomeController> {
               ElevatedButton(onPressed: ()=>Get.toNamed(Routes.BOOK),
                   child: Text("List Buku")),
 
-              ElevatedButton(onPressed: ()=>Get.toNamed(Routes.BOOK),
+              ElevatedButton(onPressed: ()=>Get.toNamed(Routes.PEMINJAMAN),
                   child: Text("List Peminjaman"))
             ],
           )
